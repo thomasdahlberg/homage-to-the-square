@@ -7,6 +7,6 @@ export default defineConfig({
       name: 'index',
       formats: ['es']
     },
-    outDir: './'
+    outDir: './dist'
   }
 });
