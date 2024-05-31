@@ -13,10 +13,11 @@ const styles = css`
   }
 
   .one {
-    inline-size: 100%;
     min-block-size: 100px;
     min-inline-size: 100px;
+    max-block-size: calc(100vh - 2rem);
     background-color: var(--square-color-1);
+    margin: auto;
   }
   
   .two {

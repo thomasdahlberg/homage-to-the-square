@@ -4,9 +4,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: './src/index.ts',
-      name: 'index',
-      formats: ['es']
+      formats: ['es'],
+      fileName: 'index'
     },
-    outDir: './dist'
   }
 });
