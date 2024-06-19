@@ -2,10 +2,11 @@
   "name": "homage-to-the-square",
   "version": "1.0.0",
   "description": "Web component capable of displaying any 'Homage to the Square' composition possible with the web color palette",
-  "main": "dist/index.js",
+  "module": "dist/homage.js",
+  "main": "dist/index.html",
   "type": "module",
   "scripts": {
-    "start": "vite",
+    "start": "npm run build && vite dist",
     "build": "vite build"
   },
   "repository": {
