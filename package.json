@@ -4,6 +4,7 @@
   "description": "Web component capable of displaying any 'Homage to the Square' composition possible with the web color palette",
   "module": "dist/homage.js",
   "main": "dist/index.html",
+  "files": ["dist"],
   "type": "module",
   "scripts": {
     "start": "npm run build && vite dist",
