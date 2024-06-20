@@ -1,3 +1,22 @@
 footer {
   block-size: 1rem;
 }
+
+body {
+  margin-inline: 1rem;
+}
+
+header {
+  margin-block-end: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+homage-to-the-square {
+  --composition-margin: auto;
+  --composition-max-block-size: calc(100vh - 12rem);
+}

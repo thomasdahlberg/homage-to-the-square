@@ -4,6 +4,16 @@ import { CompositionType } from './composition';
 import { makeRandomColor } from './util';
 
 const styles = css`
+  figure {
+    aspect-ratio: 1;
+    margin: var(--composition-margin ,0);
+    max-block-size: var(--composition-max-block-size, 100%);
+  }
+
+  figcaption {
+    padding-block: 0.5rem;
+  }
+
   div {
     aspect-ratio: 1;
     display: flex;
@@ -15,7 +25,7 @@ const styles = css`
   .one {
     min-block-size: 100px;
     min-inline-size: 100px;
-    max-block-size: calc(100vh - 2rem);
+    max-block-size: 100%;
     background-color: var(--square-color-1);
     margin: auto;
   }
