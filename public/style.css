@@ -16,7 +16,11 @@ main {
   gap: 2rem;
 }
 
+h2 {
+  margin-block: 0.5rem;
+}
+
 homage-to-the-square {
   --composition-margin: auto;
-  --composition-max-block-size: calc(100vh - 12rem);
+  --composition-max-block-size: calc(100vh - 17rem);
 }
