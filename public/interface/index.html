@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Homage to the Square: Interface</title>
   <script src="../homage.js" type="module"></script>
-  <!-- <script src="index.js" defer></script> -->
+  <script src="index.js" defer></script>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -27,7 +27,48 @@
   </header>
   <main>
     <h2>Interface</h2>
-    <homage-to-the-square>A web-component homage to Josef Albers' "Homage to the Square" series</homage-to-the-square> 
+    <homage-to-the-square colors="#e6a139 #bd6427 #a1481d #a93024">
+      <form>
+        <fieldset class="colors">
+          <legend>Square Colors</legend>
+          <div>
+            <input type="color" name="color1" id="1" value="#e6a139">
+            <label for="color1">Color One</label>
+          </div>
+          <div>
+            <input type="color" name="color2" id="2" value="#bd6427">
+            <label for="color2">Color Two</label>
+          </div>
+          <div>
+            <input type="color" name="color3" id="3" value="#a1481d">
+            <label for="color3">Color Three</label>
+          </div>
+          <div>
+            <input type="color" name="color4" id="4" value="#a93024">
+            <label for="color4">Color Four</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Composition Type</legend>
+          <div>
+            <input type="radio" name="composition-type" id="type-1" value="1">
+            <label for="type-1">1</label>
+          </div>
+          <div>
+            <input type="radio" name="composition-type" id="type-2" value="2">
+            <label for="type-2">2</label>
+          </div>
+          <div>
+            <input type="radio" name="composition-type" id="type-3" value="3">
+            <label for="type-3">3</label>
+          </div>
+          <div>
+            <input type="radio" name="composition-type" id="type-4" value="4">
+            <label for="type-4">4</label>
+          </div>
+        </fieldset>
+      </form> 
+    </homage-to-the-square>
   </main>
   <footer></footer>
 </body>
